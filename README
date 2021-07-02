@@ -1,4 +1,8 @@
-libusb-compat-0.1
+libusb-compat-0.1 with libusb-win32 API enhancement
+
+This is a unfinished work to port libusb-win32 API to Linux, macOS and
+BSDs by Travis Robinson.
+
 =================
 
 A compatibility layer allowing applications written for libusb-0.1 to work
@@ -35,12 +39,4 @@ Known quirks/differences from libusb-0.1:
     is inside (bad programming practice) and those assumptions are no longer
     true, resulting in broken software.
 
-libusb homepage:
-http://libusb.org/
-
-Use the mailing list for questions, comments, etc:
-https://sourceforge.net/mailarchive/forum.php?forum_name=libusb-devel
-
-- Peter Stuge <peter@stuge.se>
-(use the mailing list rather than mailing developers directly)
 

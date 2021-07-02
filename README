@@ -1,7 +1,6 @@
-libusb-compat-0.1 with libusb-win32 API enhancement
-
-This is a unfinished work to port libusb-win32 API to Linux, macOS and
-BSDs by Travis Robinson.
+This is a port of libusb-win32 API to Linux, macOS and BSDs by Travis 
+Robinson back in 2012. It is kind of similar to libusb-compat-0.1
+but with the added async API from libusb-win32.
 
 =================
 
